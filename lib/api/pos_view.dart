@@ -7,8 +7,8 @@ import 'package:http/http.dart' as http;
 import 'package:stomp_dart_client/stomp_dart_client.dart';
 
 // Địa chỉ URL cố định để mô phỏng chính xác "ws://localhost:8080/ws"
-const String _wsUrl = 'ws://192.168.1.67:8080/ws';
-const String _apiBaseUrl = 'http://192.168.1.67:8080';
+const String _wsUrl = 'ws://100.109.192.7:8080/ws';
+const String _apiBaseUrl = 'http://100.109.192.7:8080';
 
 StompClient? stompClient;
 int reconnectAttempts = 0;

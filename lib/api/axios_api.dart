@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class Api {
-  static const String baseUrl = 'http://192.168.1.67:8080/api/v2';
+  static const String baseUrl = 'http://100.109.192.7:8080/api/v2';
   static const int defaultTimeout = 10000;
 
   static Future<Map<String, dynamic>> get(String endpoint, {Map<String, dynamic>? queryParameters}) async {
